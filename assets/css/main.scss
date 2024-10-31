@@ -5,7 +5,6 @@ $lightest-color: {{ .Site.Params.style.lightestColor | default "#ffffff" }};
 $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 
 $avatar-w: {{ .Site.Params.style.avatarW | default "15rem" }};
-$avatar-h: {{ .Site.Params.style.avatarW | default "15rem" }};
 
 @import 'base';
 
