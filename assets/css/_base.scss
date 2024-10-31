@@ -27,6 +27,18 @@ a {
   }
 }
 
+a.btn{
+    background-color: #D9411E;
+    padding: .4em .6em;
+    font-size: .9em;
+    line-height: 1;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    text-align: center;
+}
+
 // Browsers seem to use a smaller default font-size with monospaced code
 // blocks (like 80% of the size of normal text) and that looks pretty bad with
 // small inline code-blocks in the middle of normal text (mainly because of
