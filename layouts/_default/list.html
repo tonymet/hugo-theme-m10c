@@ -3,7 +3,7 @@
     <!-- {{ with .Title -}}<h1>{{- . -}}</h1>{{- end }} -->
     {{ with .Content -}}<div class="post-content">{{- . -}}</div>{{- end }}
     <ul class="posts-list">
-      {{ range .Paginator.Pages }}
+      {{ range .Paginator.Pages.ByDate.Reverse }}
         <li class="posts-list-item">
           <h2><a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a></h2>
           {{ partial "preview.html" .}}
