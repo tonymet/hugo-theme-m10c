@@ -48,6 +48,7 @@
       {{ block "main" . }}
         {{ .Content }}
       {{ end }}
+     <footer>{{ partial "footer.html" .Site.Params.footer }}</footer>
     </main>
   </body>
 </html>
